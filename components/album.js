@@ -5,16 +5,17 @@ import Image from 'next/image'
 
 export default function Album({ image, title, date, description, size }) {
     return (
-        <div class={albumStyles.container}>
+        <div className={albumStyles.container}>
             <Image
                 src={image}
                 width={size}
                 height={size}
                 alt={title}
+                className={albumStyles.image}
                 />
-            <p class={albumStyles.title}>{title}</p>
-            <p class={albumStyles.description}>{description}</p>
-            <p class={albumStyles.date}><Date dateString={date} /></p>
+            <p className={albumStyles.title}>{title}</p>
+            <p className={albumStyles.description}>{description}</p>
+            <p className={albumStyles.date}><Date dateString={date} /></p>
         </div>
     )
 }

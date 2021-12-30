@@ -1,16 +1,28 @@
 import Layout from '../components/layout'
 import styles from '../styles/utils.module.css'
-import Date from '../components/date'
-import Album from '../components/album'
+import albumStyles from '../styles/1aad.module.css'
+import { getSortedPostsData } from '../lib/1aad'
 import Link from 'next/link'
-import Image from 'next/image'
+import Album from '../components/album'
 
-export default function Albums({ allPostsData }) {
+export default function Blog({ allPostsData }) {
     return (
-        <Layout>
-            <section className={styles.blogList}>
-
-            </section>
+        <Layout color='#000' theme='dark'>
+            <div className={styles.blogList}>
+                {allPostsData.map((post) => (
+                    <Link href={`1aad/${post.id}`} key={post.id}>
+                        <button className={albumStyles.button}>
+                        <Album
+                            image={`/1aad/${post.image}`}
+                            title={post.title}
+                            date={post.date}
+                            description={post.description}
+                            size={200}
+                            />
+                        </button>
+                    </Link>
+                ))}
+            </div>
         </Layout>
     )
 }

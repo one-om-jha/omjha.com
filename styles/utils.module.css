@@ -7,11 +7,37 @@
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 4px 0px;
     opacity: 0.8;
-    font-size: 14px;
+    font-size: 16px;
 }
 .blogList {
     padding: 20px 0px;
 }
 .blogList hr {
     padding-bottom: 10px;
+}
+.postDescription {
+	margin-left: 4%;
+}
+.postPreview {
+	padding: 14px 0px;
+}
+
+.fadeIn {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }

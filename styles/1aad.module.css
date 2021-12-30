@@ -1,0 +1,36 @@
+.button {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0px;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    text-align: inherit;
+}
+.pageContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.contentContainer {
+    margin-left: 4%;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 4px 0px;
+}
+.description {
+    font-family: var(--sans-serif-font);
+    font-style: italic;
+    margin: 0px 0px;
+}
+.date {
+    font-family: var(--sans-serif-font);
+    opacity: 0.7;
+    font-size: 12px;
+    margin: 0px 0px;
+    line-height: 1.6em;
+}
