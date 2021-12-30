@@ -9,8 +9,6 @@ export default function Blog({ allPostsData }) {
         <Layout>
             <div className={styles.blogList}>
                 <h3>These pages and notes are <i>evolving</i> ideas and concepts that I keep coming back to.
-                    It's more worth it for me to continually explore fields over time rather
-                    than create static blog posts.
                 </h3>
                 {allPostsData.map((post) => (
                     <div className={styles.postPreview} key={post.id}>

@@ -44,7 +44,7 @@ export default function Layout({ children, home, color, theme }) {
                         <Link href="/1aad"><a>1aad</a></Link>
                     </nav>
                 )}
-                <div className={styles.content}>
+                <div className={`${styles.content} ${utilStyles.fadeIn}`}>
                     <main>
                         {children}
                     </main>

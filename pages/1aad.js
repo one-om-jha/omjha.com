@@ -7,7 +7,7 @@ import Album from '../components/album'
 
 export default function Blog({ allPostsData }) {
     return (
-        <Layout color='#000' theme='dark'>
+        <Layout color='#111' theme='dark'>
             <div className={styles.blogList}>
                 {allPostsData.map((post) => (
                     <Link href={`1aad/${post.id}`} key={post.id}>
