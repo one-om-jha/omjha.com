@@ -16,7 +16,7 @@ export default function Layout({ children, home }) {
                     <Link href="/"><a>home</a></Link>
                     <Link href="/"><a>design</a></Link>
                     <Link href="/"><a>art</a></Link>
-                    <Link href="/"><a>writing</a></Link>
+                    <Link href="/blog"><a>writing</a></Link>
                 </nav>
                 <div class={styles.content}>
                     <main>

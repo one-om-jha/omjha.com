@@ -5,7 +5,7 @@ import styles from '../styles/utils.module.css'
 
 export default function Home() {
   return (
-    <Layout>
+    <Layout home>
       <h4>om jha</h4>
       <h2>
         I'm a designer, computationalist, and artist exploring new ways to intersect humanity with technology.
