@@ -1,16 +1,25 @@
-html,
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&family=IBM+Plex+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background-color: #F1E9DA;
+    line-height: 1.6rem;
+    font-size: 16px;
+    color: rgba(0,0,0,0.8);
+    font-family: 'IBM Plex Serif', serif;
 }
-
 a {
-  color: inherit;
-  text-decoration: none;
+    color: rgba(0,0,0,0.8);
+}
+hr {
+    border: none;
+    border-top: 1px solid rgba(0,0,0,0.2);
 }
 
-* {
-  box-sizing: border-box;
+h2, h4 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h4 {
+    font-style: italic;
+    font-size: 20px;
+    font-weight: normal;
+    margin: 0;
 }
