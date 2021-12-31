@@ -9,21 +9,21 @@ export default function Home() {
     <Layout color="#F1B04F">
       <h4 className={homeStyles.fadeIn}>om jha</h4>
       <h2>
-        I'm a designer, computationalist, and artist exploring new ways to intersect humanity with technology.
+        I&quot;m a designer, computationalist, and artist exploring new ways to intersect humanity with technology.
         <br />
         <br />
-        Currently, I'm studying Computer Science at Georgia Tech (🐝 '24) in Atlanta, Georgia.
+        Currently, I&quot;m studying Computer Science at Georgia Tech (🐝 &quot;24) in Atlanta, Georgia.
       </h2>
 
       <br />
 
       <div className={homeStyles.fadeIn}>
-        lately, I've been
+        lately, I&quot;ve been
         <ul>
           <li>working with <Link href="/"><a>Design Bloc</a></Link>, a VIP program at GT, with faculty and the ADID on a (super) cool user research project at Woodruff Park in Downtown Atlanta</li>
           <li>designing and Developing at <Link href="/"><a>Indian Star News</a></Link>, a news service targeting the Indian Diaspora</li>
           <li>
-            wearing many hats (Inventing, Designing, Advertising, Computing) at <Link href="/"><a>5WH</a></Link>, a platform that's
+            wearing many hats (Inventing, Designing, Advertising, Computing) at <Link href="/"><a>5WH</a></Link>, a platform that&quot;s
             aiming to redefine the way journalists find work and the way media organizations find news for the 21st century
           </li>
           <li>desiging and posting art on twitter</li>
@@ -31,7 +31,7 @@ export default function Home() {
         </ul>
 
         <br />
-        I'm particularly interested in
+        I&quot;m particularly interested in
         <ul>
           <li><Link href="/"><a>computing and art</a></Link></li>
           <li><Link href="/"><a>building studios, not galleries</a></Link></li>

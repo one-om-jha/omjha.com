@@ -10,13 +10,12 @@ export default function Art({ allPostsData }) {
         <Layout color="#111" theme='dark'>
             <div className={styles.artList}>
                 {allPostsData.map((post) => (
-                    <div className={styles.artContainer}>
+                    <div className={styles.artContainer} key={post.id}>
                         <Image
                             objectFit='contain'
                             width={post.width}
                             height={post.height}
                             src={post.fullPath}
-                            key={post.id}
                         />
                     </div>
                 ))}

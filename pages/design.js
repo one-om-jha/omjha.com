@@ -13,6 +13,7 @@ export default function Blog({ allPostsData }) {
                         image={post.image}
                         link={`/design/${post.id}`}
                         description={post.description}
+                        key={post.id}
                     />
                 ))}
             </div>
