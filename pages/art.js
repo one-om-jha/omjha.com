@@ -1,8 +1,6 @@
 import Layout from '../components/layout'
 import styles from '../styles/utils.module.css'
 import { getSortedPostsData } from '../lib/art'
-import Date from '../components/date'
-import Link from 'next/link'
 import Image from 'next/image'
 
 export default function Art({ allPostsData }) {
