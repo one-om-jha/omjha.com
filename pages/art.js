@@ -15,7 +15,7 @@ export default function Art({ imageList }) {
                         gutter={4}
                         >
                         {imageList.map((image) => (
-                            <Link href={image}>
+                            <Link href={image} key={image}>
                                 <img src={image} className={styles.artImage} />
                             </Link>
                         ))}
