@@ -5,6 +5,7 @@
     --color: rgba(0,0,0,0.8);
     --light-color: rgba(0,0,0,0.5);
     --lightest-color: rgba(0,0,0,0.2);
+    --pattern-color: rgba(0,0,0,0.3);
     --text-size: 16px;
     --small-font: 14px;
     --smalest-font: 12px;
@@ -15,6 +16,7 @@
 
 [theme="dark"] {
     --bg-color: #000;
+    --pattern-color: rgba(255,255,255,0.2);
     --color: rgba(255, 255, 255,0.9);
     --light-color: rgba(255, 255, 255,0.7);
     --lightest-color: rgba(255,255,255,0.4);
@@ -22,6 +24,11 @@
 
 body {
     background-color: var(--bg-color);
+
+    background-image:  radial-gradient(var(--pattern-color) 0.5px, transparent 0.5px), radial-gradient(var(--pattern-color) 0.5px, var(--bg-color) 0.5px);
+    background-size: 20px 20px;
+    background-position: 0 0,10px 10px;
+
     color: var(--color);
     font-family: var(--serif-font);
     line-height: var(--line-height);
