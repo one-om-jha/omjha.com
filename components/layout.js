@@ -6,11 +6,11 @@ import utilStyles from '../styles/utils.module.css'
 const name = "Om Jha"
 export const siteTitle = "omjha.com"
 
-export default function Layout({ children, home, color, theme }) {
+export default function Layout({ children, home, color, theme, size }) {
     if (typeof window !== "undefined") {
         let root = document.documentElement;
         if (color) {
-            root.style.setProperty('--bg-color', `${ color }`);
+            root.style.setProperty('--bg-color', `${ color }`)
         } else {
             root.style.setProperty('--bg-color', '#F1E9DA')
         }
@@ -19,6 +19,12 @@ export default function Layout({ children, home, color, theme }) {
             root.setAttribute('theme', 'dark');
         } else {
             root.setAttribute('theme', 'light')
+        }
+
+        if (size == 'large') {
+            root.style.setProperty('--content-size', '900px')
+        } else {
+            root.style.setProperty('--content-size', '600px')
         }
     }
     return (

@@ -1,32 +1,36 @@
 import Layout from '../components/layout'
 import styles from '../styles/utils.module.css'
-import { getSortedPostsData } from '../lib/art'
+import { getImages } from '../lib/art'
 import Image from 'next/image'
+import Masonry, { ResponsiveMasonry } from "react-responsive-masonry"
+import Link from 'next/link'
 
-export default function Art({ allPostsData }) {
+export default function Art({ imageList }) {
     return (
-        <Layout color="#111" theme='dark'>
-            <div className={styles.artList}>
-                {allPostsData.map((post) => (
-                    <div className={styles.artContainer} key={post.id}>
-                        <Image
-                            objectFit='contain'
-                            width={post.width}
-                            height={post.height}
-                            src={post.fullPath}
-                        />
-                    </div>
-                ))}
+        <Layout color="#111" theme='dark' size='large'>
+            <div className={styles.artContainer}>
+                <ResponsiveMasonry>
+                    <Masonry
+                        columnsCount={4}
+                        gutter={4}
+                        >
+                        {imageList.map((image) => (
+                            <Link href={image}>
+                                <img src={image} className={styles.artImage} />
+                            </Link>
+                        ))}
+                    </Masonry>
+                </ResponsiveMasonry>
             </div>
         </Layout>
     )
 }
 
-export async function getServerSideProps() {
-    const allPostsData = await getSortedPostsData()
+export async function getStaticProps() {
+    const imageList = getImages();
     return {
         props: {
-            allPostsData
+            imageList
         }
     }
 }

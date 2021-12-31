@@ -7,8 +7,8 @@ export default function Design({ title, image, description, link }) {
     return (
         <div className={designStyles.container}>
             <Image
-                width={400}
-                height={300}
+                width={600}
+                height={450}
                 src={image}
                 objectFit='cover'
                 objectPosition='top'

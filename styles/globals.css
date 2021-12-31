@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&family=IBM+Plex+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 :root {
+    --content-size: 600px;
     --bg-color: #F1E9DA;
     --color: rgba(0,0,0,0.8);
     --light-color: rgba(0,0,0,0.5);

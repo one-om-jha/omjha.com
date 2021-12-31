@@ -5,7 +5,7 @@ import DesignPost from '../components/designPost'
 
 export default function Blog({ allPostsData }) {
     return (
-        <Layout color="#B6B0D8" theme='light'>
+        <Layout color="#B6B0D8" theme='light' size='large'>
             <div className={styles.blogList}>
                 {allPostsData.map((post) => (
                     <DesignPost
