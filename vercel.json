@@ -1,0 +1,7 @@
+{
+    "builds": [
+        {
+            "config": { "excludeFiles": "public/**" }
+        }
+    ]
+}
