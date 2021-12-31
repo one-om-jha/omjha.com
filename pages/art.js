@@ -22,8 +22,8 @@ export default function Art({ allPostsData }) {
     )
 }
 
-export async function getStaticProps() {
-    const allPostsData = getSortedPostsData()
+export async function getServerSideProps() {
+    const allPostsData = await getSortedPostsData()
     return {
         props: {
             allPostsData
