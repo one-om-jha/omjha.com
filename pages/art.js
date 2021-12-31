@@ -22,7 +22,7 @@ export default function Art({ allPostsData }) {
     )
 }
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
     const allPostsData = getSortedPostsData()
     return {
         props: {
