@@ -11,9 +11,9 @@ export default function Blog({ allPostsData }) {
                 <h3>These pages and notes are <i>evolving</i> ideas and concepts that I keep coming back to.
                 </h3>
                 {allPostsData.map((post) => (
-                    <div className={styles.postPreview} key={post.id}>
+                    <div className={styles.designPreview} key={post.id}>
                         <Link href={`/posts/${post.id}`}>
-                            <a>{post.title}</a>
+                            <a>{post.title} →</a>
                         </Link>
                         <br />
                         <p className={`${styles.description} ${styles.postDescription}`}>{post.description}</p>

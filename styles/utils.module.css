@@ -21,6 +21,14 @@
 .postPreview {
 	padding: 14px 0px;
 }
+.artList {
+	column-count: 2;
+	column-gap: 8px;
+}
+.artContainer {
+	margin-bottom: -7px;
+	padding: 4px 0px;
+}
 
 .fadeIn {
 	opacity: 1;
