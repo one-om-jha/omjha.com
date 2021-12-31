@@ -1,5 +1,7 @@
 {
     "functions": {
-        "excludeFiles": "public/**/*"
+        "pages/art.js": {
+            "excludeFiles": "public/**/*"
+        }
     }
 }
