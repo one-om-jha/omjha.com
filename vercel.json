@@ -1,6 +1,6 @@
 {
     "functions": {
-        "/pages/art.js": {
+        "pages/art.js": {
             "excludeFiles": "public/**"
         }
     }
