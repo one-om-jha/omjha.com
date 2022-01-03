@@ -8,7 +8,7 @@ import Album from '../../components/album'
 
 export default function Post({ postData }) {
     return (
-        <Layout color="#111" theme='dark'>
+        <Layout color="#111" theme='dark' size='large'>
             <Head>
                 <title>{postData.title}</title>
             </Head>

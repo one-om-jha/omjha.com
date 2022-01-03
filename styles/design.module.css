@@ -6,13 +6,12 @@
 }
 .text {
     position: absolute;
-    left: 40%;
     top: 40%;
+    right: 0;
     background-color: var(--bg-color);
     padding: 14px;
     border: 6px solid var(--color);
     text-align: left;
-    max-width: 400px;
 }
 .backgroundImage {
     z-index: -1;

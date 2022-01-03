@@ -7,15 +7,15 @@ import Album from '../components/album'
 
 export default function Blog({ allPostsData }) {
     return (
-        <Layout color='#111' theme='dark'>
+        <Layout color='#111' theme='dark' size='large'>
             <div className={styles.blogList}>
                 {allPostsData.map((post) => (
                     <Link href={`1aad/${post.id}`} key={post.id}>
                         <button className={albumStyles.button}>
                         <Album
-                            image={`/1aad/${post.image}`}
+                            image={`${post.image}`}
                             title={post.title}
-                            date={post.date}
+                            date={`${post.date}`}
                             description={post.description}
                             size={200}
                             />

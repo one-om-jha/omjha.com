@@ -15,21 +15,25 @@
 }
 .contentContainer {
     margin-left: 4%;
+    width: 50%;
+}
+.container {
+    width: 200px;
 }
 
 .title {
-    font-size: 24px;
+    font-size: 18px;
     font-weight: bold;
     margin: 4px 0px;
 }
 .description {
     font-family: var(--sans-serif-font);
-    font-style: italic;
+    color: var(--light-color);
     margin: 0px 0px;
 }
 .date {
     font-family: var(--sans-serif-font);
-    opacity: 0.7;
+    color: var(--lightest-color);
     font-size: 12px;
     margin: 0px 0px;
     line-height: 1.6em;

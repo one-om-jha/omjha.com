@@ -10,7 +10,7 @@ export default function Blog({ allPostsData }) {
                 {allPostsData.map((post) => (
                     <DesignPost
                         title={post.title}
-                        image={post.image}
+                        image={`/design/${post.image}`}
                         link={`/design/${post.id}`}
                         description={post.description}
                         key={post.id}
