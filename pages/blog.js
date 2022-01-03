@@ -8,8 +8,7 @@ export default function Blog({ allPostsData }) {
     return (
         <Layout>
             <div className={styles.blogList}>
-                <h3>These pages and notes are <i>evolving</i> ideas and concepts that I keep coming back to.
-                </h3>
+                <h1>Writing</h1>
                 {allPostsData.map((post) => (
                     <div className={styles.designPreview} key={post.id}>
                         <Link href={`/posts/${post.id}`}>

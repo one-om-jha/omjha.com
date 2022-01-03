@@ -7,7 +7,7 @@ import styles from '../../styles/utils.module.css'
 
 export default function Post({ postData }) {
     return (
-        <Layout color="#FFF">
+        <Layout color="#FFF" size='large'>
             <Head>
                 <title>{postData.title}</title>
             </Head>
@@ -18,7 +18,7 @@ export default function Post({ postData }) {
 
 const renderers = {
     image: image => {
-        return <Image src={image.src} alt={image.alt} height={200} width={355} />
+        return <Image src={image.src} alt={image.alt} height={200} width={355} className={styles.image}/>
     },
 }
 

@@ -21,9 +21,15 @@
 .postPreview {
 	padding: 14px 0px;
 }
-
+.image {
+	width: 100%;
+}
+.postContent {
+	width: 100%;
+}
 .artImage {
 	width: 100%;
+	cursor: pointer;
 }
 
 .fadeIn {

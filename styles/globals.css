@@ -47,3 +47,21 @@ hr {
 h2, h4 {
     font-family: var(--sans-serif-font);
 }
+img {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+li {
+    padding-left: 2em;
+    text-indent: -2ch;
+}
+li:before {
+    content: "•";
+    color: var(--light-color);
+    padding-right: 1ch;
+}

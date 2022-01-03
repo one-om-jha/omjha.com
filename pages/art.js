@@ -11,7 +11,7 @@ export default function Art({ imageList }) {
             <div className={styles.artContainer}>
                 <ResponsiveMasonry>
                     <Masonry
-                        columnsCount={4}
+                        columnsCount={2}
                         gutter={4}
                         >
                         {imageList.map((image) => (

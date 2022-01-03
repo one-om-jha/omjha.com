@@ -20,10 +20,10 @@ export default function Home() {
       <div className={homeStyles.fadeIn}>
         lately, I&rsquo;ve been
         <ul>
-          <li>working with <Link href="/"><a>Design Bloc</a></Link>, a VIP program at GT, with faculty and the ADID on a (super) cool user research project at Woodruff Park in Downtown Atlanta</li>
-          <li>designing and Developing at <Link href="/"><a>Indian Star News</a></Link>, a news service targeting the Indian Diaspora</li>
+          <li>working with <Link href="https://designbloc.gatech.edu"><a>Design Bloc</a></Link>, a VIP program at GT, with faculty and the ADID on a (super) cool user research project at Woodruff Park in Downtown Atlanta</li>
+          <li>designing and Developing at <Link href="https://www.indianstar.news"><a>Indian Star News</a></Link>, a news service targeting the Indian Diaspora</li>
           <li>
-            wearing many hats (Inventing, Designing, Advertising, Computing) at <Link href="/"><a>5WH</a></Link>, a platform that&rsquo;s
+            wearing many hats (Inventing, Designing, Advertising, Computing) at <Link href="https://5wh.com/account/homepage"><a>5WH</a></Link>, a platform that&rsquo;s
             aiming to redefine the way journalists find work and the way media organizations find news for the 21st century
           </li>
           <li>desiging and posting art on twitter</li>
@@ -37,7 +37,7 @@ export default function Home() {
           <li><Link href="/"><a>building studios, not galleries</a></Link></li>
           <li><Link href="/"><a>tools for thought</a></Link></li>
           <li><Link href="/"><a>designing for human emotion</a></Link></li>
-          <li><Link href="/"><a>the media industry</a></Link></li>
+          <li><Link href="/"><a>news and technology</a></Link></li>
         </ul>
 
         contact me at <a>hello@omjha.com</a>!
