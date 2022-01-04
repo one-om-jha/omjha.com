@@ -56,9 +56,9 @@ export default function Layout({ children, home, color, theme, size }) {
                     </main>
                     <div className={styles.footer}>
 
-                        <Link href="/"><a>twitter</a></Link>{' • '}
-                        <Link href="/"><a>behance</a></Link>{' • '}
-                        <Link href="/"><a>instagram</a></Link>
+                        <Link href="https://twitter.com/_om_art"><a>twitter</a></Link>{' • '}
+                        <Link href="https://www.behance.net/om_"><a>behance</a></Link>{' • '}
+                        <Link href="https://www.instagram.com/om.creates/"><a>instagram</a></Link>
                     </div>
                 </div>
             </div>
