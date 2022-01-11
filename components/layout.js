@@ -40,7 +40,7 @@ export default function Layout({ children, home, color, theme, size }) {
                         <Link href="/art"><a>art</a></Link>
                         <Link href="/blog"><a>writing</a></Link>
                         <Link href="/1aad"><a>1aad</a></Link>
-                        <Link href="https://github.com/one-om-jha">github</Link>
+                        <Link href="https://github.com/one-om-jha"><a>github</a></Link>
                     </nav>
                 ) : (
                     <nav className={styles.nav}>

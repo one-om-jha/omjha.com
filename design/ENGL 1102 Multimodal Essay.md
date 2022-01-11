@@ -5,6 +5,4 @@ description: 'A literature essay in web form, taking advantage of digital multim
 image: 'multimodal.png'
 ---
 
-[view on behance](https://www.behance.net/gallery/116778819/5WH-News-Hub-Branding-and-Design)
-
-![](multimodal.png)
+[view on github pages](https://one-om-jha.github.io/multimodal-site/)
