@@ -1,5 +1,5 @@
 ---
-title: "Xbox One UX Redesign (2017)"
+title: "Xbox One UX Redesign"
 date: '2017-01-01'
 description: 'A focused redesign of the infamous Xbox One UI'
 image: 'xbox.jpg'
