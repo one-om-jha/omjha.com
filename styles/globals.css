@@ -65,3 +65,7 @@ li:before {
     color: var(--light-color);
     padding-right: 1ch;
 }
+iframe {
+    width: 100%;
+    border: 0px;
+}

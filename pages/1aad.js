@@ -8,6 +8,11 @@ import Album from '../components/album'
 export default function Blog({ allPostsData }) {
     return (
         <Layout color='#111' theme='dark' size='large'>
+            <h4>1aad is a project to listen to 1 album every day of 2022.
+                <br />
+                I previously did this in 2021. (archive coming soon!)
+            </h4>
+
             <div className={styles.blogList}>
                 {allPostsData.map((post) => (
                     <Link href={`1aad/${post.id}`} key={post.id}>
