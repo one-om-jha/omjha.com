@@ -11,7 +11,7 @@ export default function Art({ videoList }) {
             <div className={styles.artContainer}>
                 <div className={styles.videoContainer}>
                     {videoList.map((video) => (
-                        <iframe src={video} height="300"></iframe>
+                        <iframe src={video} height="300" key={video}></iframe>
                     ))}
                 </div>
             </div>

@@ -9,7 +9,7 @@ export default function Art({ imageList }) {
     return (
         <Layout color="#111" theme='dark'>
             <div className={styles.artContainer}>
-                <iframe height="600" src="https://www.instagram.com/om.creates/embed" frameborder="0"></iframe>
+                <iframe height="600" src="https://www.instagram.com/om.creates/embed"></iframe>
             </div>
         </Layout>
     )
