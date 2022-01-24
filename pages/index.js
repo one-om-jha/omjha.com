@@ -18,15 +18,15 @@ export default function Home() {
       <br />
 
       <div className={homeStyles.fadeIn}>
-        lately, I&rsquo;ve been
+        Most recently, I&rsquo;ve
         <ul>
-          <li>working with <Link href="https://designbloc.gatech.edu"><a>Design Bloc</a></Link>, a VIP program at GT, with faculty and the ADID on a (super) cool user research project at Woodruff Park in Downtown Atlanta</li>
-          <li>designing and Developing at <Link href="https://www.indianstar.news"><a>Indian Star News</a></Link>, a news service targeting the Indian Diaspora</li>
+          <li>worked with <Link href="https://designbloc.gatech.edu"><a>Design Bloc</a></Link>, a VIP program at GT, with faculty and the ADID on a (super) cool user research project at Woodruff Park in Downtown Atlanta</li>
+          <li>designed and developed at <Link href="https://www.indianstar.news"><a>Indian Star News</a></Link>, a news service targeting the Indian Diaspora</li>
           <li>
-            wearing many hats (Inventing, Designing, Advertising, Computing) at <Link href="https://5wh.com/account/homepage"><a>5WH</a></Link>, a platform that&rsquo;s
+            am wearing many hats (Inventing, Designing, Advertising, Computing) at <Link href="https://5wh.com/account/homepage"><a>5WH</a></Link>, a platform that&rsquo;s
             aiming to redefine the way journalists find work and the way media organizations find news for the 21st century
           </li>
-          <li>desiging and posting art on twitter</li>
+          <li>desiging and posting art on twitter and instagram</li>
           <li>playing guitar!</li>
         </ul>
 
