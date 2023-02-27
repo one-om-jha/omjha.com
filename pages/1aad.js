@@ -15,7 +15,7 @@ export default function Blog({ allPostsData }) {
 
             <div className={styles.blogList}>
                 {allPostsData.map((post) => (
-                    <Link href={`1aad/${post.id}`} key={post.id}>
+                    <Link href={`1aad/${post.id}`} key={post.id} legacyBehavior>
                         <button className={albumStyles.button}>
                         <Album
                             image={`${post.image}`}
@@ -29,7 +29,7 @@ export default function Blog({ allPostsData }) {
                 ))}
             </div>
         </Layout>
-    )
+    );
 }
 
 export async function getStaticProps() {

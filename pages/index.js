@@ -20,12 +20,13 @@ export default function Home() {
       <div className={homeStyles.fadeIn}>
         Most recently, I&rsquo;ve
         <ul>
-          <li>worked with <Link href="https://designbloc.gatech.edu"><a>Design Bloc</a></Link>, a VIP program at GT, with faculty and the ADID on a (super) cool user research project at Woodruff Park in Downtown Atlanta</li>
-          <li>designed and developed at <Link href="https://www.indianstar.news"><a>Indian Star News</a></Link>, a news service targeting the Indian Diaspora</li>
+          <li>making Atlanta the next great startup hub as the Associate Director of Design at <Link href="https://www.startup.exchange/">Georgia Tech Startup Exchange</Link></li>
+          <li>designed and developed <Link href="https://www.newindiaabroad.com">New India Abroad</Link>, a news service targeting the Indian Diaspora</li>
           <li>
-            am wearing many hats (Inventing, Designing, Advertising, Computing) at <Link href="https://5wh.com/account/homepage"><a>5WH</a></Link>, a platform that&rsquo;s
+            am wearing many hats (Inventing, Designing, Advertising, Computing) at <Link href="https://5wh.com/account/homepage">5WH</Link>, a platform that&rsquo;s
             aiming to redefine the way journalists find work and the way media organizations find news for the 21st century
           </li>
+          <li>worked with <Link href="https://designbloc.gatech.edu">Design Bloc</Link>, a VIP program at GT, with faculty and the ADID on a (super) cool user research project at Woodruff Park in Downtown Atlanta</li>
           <li>desiging and posting art on twitter and instagram</li>
           <li>playing guitar!</li>
         </ul>
@@ -33,15 +34,15 @@ export default function Home() {
         <br />
         I&rsquo;m particularly interested in
         <ul>
-          <li><Link href="/"><a>computing and art</a></Link></li>
-          <li><Link href="/"><a>building studios, not galleries</a></Link></li>
-          <li><Link href="/"><a>tools for thought</a></Link></li>
-          <li><Link href="/"><a>designing for human emotion</a></Link></li>
-          <li><Link href="/"><a>news and technology</a></Link></li>
+          <li><Link href="/">computing and art</Link></li>
+          <li><Link href="/">building studios, not galleries</Link></li>
+          <li><Link href="/">tools for thought</Link></li>
+          <li><Link href="/">designing for human emotion</Link></li>
+          <li><Link href="/">news and technology</Link></li>
         </ul>
 
         contact me at <a>hello@omjha.com</a>!
       </div>
     </Layout>
-  )
+  );
 }

@@ -12,7 +12,7 @@ export default function Blog({ allPostsData }) {
                 {allPostsData.map((post) => (
                     <div className={styles.designPreview} key={post.id}>
                         <Link href={`/posts/${post.id}`}>
-                            <a>{post.title} →</a>
+                            {post.title}→
                         </Link>
                         <br />
                         <p className={`${styles.description} ${styles.postDescription}`}>{post.description}</p>
@@ -20,7 +20,7 @@ export default function Blog({ allPostsData }) {
                 ))}
             </div>
         </Layout>
-    )
+    );
 }
 
 export async function getStaticProps() {
