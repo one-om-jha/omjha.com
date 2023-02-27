@@ -1,7 +1,7 @@
 import Layout from '../components/layout'
 import styles from '../styles/utils.module.css'
 import { getVideos } from '../lib/video'
-import Image from 'next/image'
+import Image from "next/image";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry"
 import Link from 'next/link'
 

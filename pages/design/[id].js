@@ -1,7 +1,7 @@
 import Layout from '../../components/layout'
 import reactMarkdown from 'react-markdown'
 import Head from 'next/head'
-import Image from 'next/image'
+import Image from "next/image";
 import { getAllPostIds, getPostData } from '../../lib/design'
 import styles from '../../styles/utils.module.css'
 
@@ -18,7 +18,18 @@ export default function Post({ postData }) {
 
 const renderers = {
     image: image => {
-        return <Image src={image.src} alt={image.alt} height={200} width={355} className={styles.image}/>
+        return (
+            <Image
+                src={image.src}
+                alt={image.alt}
+                height={200}
+                width={355}
+                className={styles.image}
+                style={{
+                    maxWidth: "100%",
+                    height: "auto"
+                }} />
+        );
     },
 }
 

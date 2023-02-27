@@ -1,6 +1,6 @@
 import styles from '../styles/utils.module.css'
 import designStyles from '../styles/design.module.css'
-import Image from 'next/image'
+import Image from "next/image";
 import Link from 'next/link'
 
 export default function Design({ title, image, description, link }) {
@@ -10,16 +10,19 @@ export default function Design({ title, image, description, link }) {
                 width={600}
                 height={450}
                 src={image}
-                objectFit='cover'
-                objectPosition='top'
                 className={designStyles.backgroundImage}
-                />
+                style={{
+                    maxWidth: "80%",
+                    height: "450px",
+                    objectFit: "cover",
+                    objectPosition: "top"
+                }} />
             <div className={designStyles.text}>
-                <Link href={link}>
-                    <a className={designStyles.title}>{title}</a>
+                <Link href={link} className={designStyles.title} legacyBehavior>
+                    {title}
                 </Link>
                 <p className={designStyles.description}>{description}</p>
             </div>
         </div>
-    )
+    );
 }

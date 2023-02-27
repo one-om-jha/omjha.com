@@ -35,21 +35,21 @@ export default function Layout({ children, home, color, theme, size }) {
             <div className={styles.container}>
                 {home ? (
                     <nav className={`${styles.nav} ${utilStyles.fadeIn}`}>
-                        <Link href="/"><a>home</a></Link>
-                        <Link href="/design"><a>design</a></Link>
-                        <Link href="/art"><a>art</a></Link>
-                        <Link href="/blog"><a>writing</a></Link>
-                        <Link href="/video"><a>motion&video</a></Link>
-                        <Link href="https://github.com/one-om-jha"><a>github</a></Link>
+                        <Link href="/">home</Link>
+                        <Link href="/design">design</Link>
+                        <Link href="/art">art</Link>
+                        <Link href="/blog">writing</Link>
+                        <Link href="/video">motion&video</Link>
+                        <Link href="https://github.com/one-om-jha">github</Link>
                     </nav>
                 ) : (
                     <nav className={styles.nav}>
-                        <Link href="/"><a>home</a></Link>
-                        <Link href="/design"><a>design</a></Link>
-                        <Link href="/art"><a>art</a></Link>
-                        <Link href="/blog"><a>writing</a></Link>
-                        <Link href="/video"><a>motion&video</a></Link>
-                        <Link href="https://github.com/one-om-jha"><a>github</a></Link>
+                        <Link href="/">home</Link>
+                        <Link href="/design">design</Link>
+                        <Link href="/art">art</Link>
+                        <Link href="/blog">writing</Link>
+                        <Link href="/video">motion&video</Link>
+                        <Link href="https://github.com/one-om-jha">github</Link>
                     </nav>
                 )}
                 <div className={`${styles.content} ${utilStyles.fadeIn}`}>
@@ -58,12 +58,12 @@ export default function Layout({ children, home, color, theme, size }) {
                     </main>
                     <div className={styles.footer}>
 
-                        <Link href="https://twitter.com/_om_art"><a>twitter</a></Link>{' • '}
-                        <Link href="https://www.behance.net/om_"><a>behance</a></Link>{' • '}
-                        <Link href="https://www.instagram.com/om.creates/"><a>instagram</a></Link>
+                        <Link href="https://twitter.com/_om_art">twitter</Link>{' • '}
+                        <Link href="https://www.behance.net/om_">behance</Link>{' • '}
+                        <Link href="https://www.instagram.com/om.creates/">instagram</Link>
                     </div>
                 </div>
             </div>
         </div>
-    )
+    );
 }

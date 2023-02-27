@@ -1,7 +1,7 @@
 import Layout from '../components/layout'
 import styles from '../styles/utils.module.css'
 import { getImages } from '../lib/art'
-import Image from 'next/image'
+import Image from "next/image";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry"
 import Link from 'next/link'
 
